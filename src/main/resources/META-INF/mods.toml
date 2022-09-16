@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[39,)"
+license="MIT"
+issueTrackerURL="https://github.com/Mrthomas20121/Functional_TFC/issues"
+
+[[mods]]
+modId="functional_tfc"
+version="0.0.1"
+displayName="Functional TFC"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/functional_tfc"
+authors="Mrthomas20121"
+description='''
+Bridge TFC and Functional Storage
+'''
+
+[[dependencies.functional_tfc]] #optional
+    modId="forge" #mandatory
+    mandatory=true #mandatory
+    versionRange="[39,)" #mandatory
+    # An ordering relationship for the dependency - BEFORE or AFTER required if the relationship is not mandatory
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.functional_tfc]]
+    modId="tfc"
+    mandatory=true
+    versionRange="[0,)"
+    ordering="AFTER"
+    side="BOTH"
