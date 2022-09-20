@@ -26,3 +26,9 @@ Bridge TFC and Functional Storage
     versionRange="[0,)"
     ordering="AFTER"
     side="BOTH"
+[[dependencies.functional_tfc]]
+    modId="functionalstorage"
+    mandatory=true
+    versionRange="[0,)"
+    ordering="BEFORE"
+    side="BOTH"
