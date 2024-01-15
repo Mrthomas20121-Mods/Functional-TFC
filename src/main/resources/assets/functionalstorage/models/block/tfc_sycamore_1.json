@@ -3,6 +3,6 @@
   "textures": {
     "particle": "functionalstorage:blocks/tfc_sycamore_front_1",
     "front": "functionalstorage:blocks/tfc_sycamore_front_1",
-    "side": "functionalstorage:block/tfc_sycamore_side"
+    "side": "functionalstorage:blocks/tfc_sycamore_side"
   }
 }
